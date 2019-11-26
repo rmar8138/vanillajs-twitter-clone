@@ -29,22 +29,24 @@ li {
   display: flex; }
 
 .tweet {
-  border: 1px solid black;
+  border: 1px solid #999;
   padding: 1rem; }
   .tweet__author {
     font-size: 1.4rem; }
   .tweet__body {
     font-size: 1.2rem; }
 
+.tweet-form {
+  padding: 2rem 0; }
+
 .navbar {
-  background-color: palevioletred;
   flex: 0 1 25%; }
 
 .feed {
-  background-color: paleturquoise;
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
   flex: 0 1 50%;
   overflow: scroll; }
 
 .trends {
-  background-color: palegreen;
   flex: 0 1 25%; }
