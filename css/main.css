@@ -21,14 +21,17 @@ a {
 li {
   list-style: none; }
 
+.container {
+  padding: 2rem; }
+
 .home {
   display: flex; }
 
-.navbar__list-item__link {
-  color: red; }
+.navbar {
+  background-color: palevioletred; }
 
 .feed {
-  color: blue; }
+  background-color: paleturquoise; }
 
 .trends {
-  color: green; }
+  background-color: palegreen; }

@@ -9,118 +9,67 @@
   </head>
   <body class="home">
     <nav class="navbar">
-      <ul class="navbar__list">
-        <li class="navbar__list-item">
-          <a href="#" class="navbar__list-item__link">
-            Home
-          </a>
-        </li>
-        <li class="navbar__list-item">
-          <a href="#" class="navbar__list-item__link">
-            Explore
-          </a>
-        </li>
-        <li class="navbar__list-item">
-          <a href="#" class="navbar__list-item__link">
-            Notifications
-          </a>
-        </li>
-        <li class="navbar__list-item">
-          <a href="#" class="navbar__list-item__link">
-            Messages
-          </a>
-        </li>
-        <li class="navbar__list-item">
-          <a href="#" class="navbar__list-item__link">
-            Bookmarks
-          </a>
-        </li>
-        <li class="navbar__list-item">
-          <a href="#" class="navbar__list-item__link">
-            Lists
-          </a>
-        </li>
-        <li class="navbar__list-item">
-          <a href="#" class="navbar__list-item__link">
-            Profile
-          </a>
-        </li>
-        <li class="navbar__list-item">
-          <a href="#" class="navbar__list-item__link">
-            More
-          </a>
-        </li>
-      </ul>
+      <div class="container">
+        <ul class="navbar__list">
+          <li class="navbar__list-item">
+            <a href="#" class="navbar__list-item__link">
+              Home
+            </a>
+          </li>
+          <li class="navbar__list-item">
+            <a href="#" class="navbar__list-item__link">
+              Explore
+            </a>
+          </li>
+          <li class="navbar__list-item">
+            <a href="#" class="navbar__list-item__link">
+              Notifications
+            </a>
+          </li>
+          <li class="navbar__list-item">
+            <a href="#" class="navbar__list-item__link">
+              Messages
+            </a>
+          </li>
+          <li class="navbar__list-item">
+            <a href="#" class="navbar__list-item__link">
+              Bookmarks
+            </a>
+          </li>
+          <li class="navbar__list-item">
+            <a href="#" class="navbar__list-item__link">
+              Lists
+            </a>
+          </li>
+          <li class="navbar__list-item">
+            <a href="#" class="navbar__list-item__link">
+              Profile
+            </a>
+          </li>
+          <li class="navbar__list-item">
+            <a href="#" class="navbar__list-item__link">
+              More
+            </a>
+          </li>
+        </ul>
+      </div>
       <button class="btn tweet-button">Tweet</button>
     </nav>
-    <main>
-      <form class="tweet-form">
-        <input type="text" class="tweet-form__text" />
-        <button class="btn tweet-form__button">Tweet</button>
-      </form>
-      <ul class="feed">
-        <li class="tweet">
-          <span class="tweet__author">Me</span>
-          <p class="tweet__body">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas,
-            similique? Exercitationem minus possimus iste quia atque incidunt,
-            quasi sequi necessitatibus.
-          </p>
-        </li>
-        <li class="tweet">
-          <span class="tweet__author">Me</span>
-          <p class="tweet__body">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas,
-            similique? Exercitationem minus possimus iste quia atque incidunt,
-            quasi sequi necessitatibus.
-          </p>
-        </li>
-        <li class="tweet">
-          <span class="tweet__author">Me</span>
-          <p class="tweet__body">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas,
-            similique? Exercitationem minus possimus iste quia atque incidunt,
-            quasi sequi necessitatibus.
-          </p>
-        </li>
-        <li class="tweet">
-          <span class="tweet__author">Me</span>
-          <p class="tweet__body">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas,
-            similique? Exercitationem minus possimus iste quia atque incidunt,
-            quasi sequi necessitatibus.
-          </p>
-        </li>
-        <li class="tweet">
-          <span class="tweet__author">Me</span>
-          <p class="tweet__body">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas,
-            similique? Exercitationem minus possimus iste quia atque incidunt,
-            quasi sequi necessitatibus.
-          </p>
-        </li>
-        <li class="tweet">
-          <span class="tweet__author">Me</span>
-          <p class="tweet__body">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas,
-            similique? Exercitationem minus possimus iste quia atque incidunt,
-            quasi sequi necessitatibus.
-          </p>
-        </li>
-        <li class="tweet">
-          <span class="tweet__author">Me</span>
-          <p class="tweet__body">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas,
-            similique? Exercitationem minus possimus iste quia atque incidunt,
-            quasi sequi necessitatibus.
-          </p>
-        </li>
-      </ul>
+    <main class="feed">
+      <div class="container">
+        <form class="tweet-form">
+          <input type="text" class="tweet-form__text" />
+          <button class="btn tweet-form__button">Tweet</button>
+        </form>
+        <ul class="tweet-list" id="tweetList"></ul>
+      </div>
     </main>
     <aside class="trends">
-      <p>Cool stuff coming soon</p>
+      <div class="container">
+        <p>Cool stuff coming soon</p>
+      </div>
     </aside>
-
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>

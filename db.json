@@ -5,22 +5,25 @@
       "author": "json-server",
       "body": "typicode"
     },
-    [
-      {
-        "id": 2,
-        "author": "testing",
-        "body": "heyaaaaaaa"
-      }
-    ]
-  ],
-  "comments": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "author": "testing",
+      "body": "heyaaaaaaa"
+    },
+    {
+      "id": 3,
+      "author": "me",
+      "body": "hello world"
+    },
+    {
+      "id": 4,
+      "author": "me",
+      "body": "whats up"
+    },
+    {
+      "id": 5,
+      "author": "testing",
+      "body": "heyaaaaaaa"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
