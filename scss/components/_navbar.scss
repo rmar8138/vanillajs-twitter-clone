@@ -1,0 +1,10 @@
+.navbar {
+  &__list {
+  }
+
+  &__list-item {
+    &__link {
+      color: red;
+    }
+  }
+}

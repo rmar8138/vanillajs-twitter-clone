@@ -1,0 +1,26 @@
+{
+  "tweets": [
+    {
+      "id": 1,
+      "author": "json-server",
+      "body": "typicode"
+    },
+    [
+      {
+        "id": 2,
+        "author": "testing",
+        "body": "heyaaaaaaa"
+      }
+    ]
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
