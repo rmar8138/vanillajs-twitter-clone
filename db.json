@@ -1,54 +1,28 @@
 {
   "tweets": [
     {
-      "id": 1,
-      "author": "json-server",
-      "body": "typicode"
+      "body": "hey",
+      "author": "Me",
+      "timestamp": 1574731201632,
+      "id": 1
     },
     {
-      "id": 2,
-      "author": "testing",
-      "body": "heyaaaaaaa"
+      "body": "okay cool...",
+      "author": "Me",
+      "timestamp": 1574731207794,
+      "id": 2
     },
     {
-      "id": 3,
-      "author": "me",
-      "body": "hello world"
+      "body": "well... this is cool",
+      "author": "Me",
+      "timestamp": 1574731215585,
+      "id": 3
     },
     {
-      "id": 4,
-      "author": "me",
-      "body": "whats up"
-    },
-    {
-      "id": 5,
-      "author": "testing",
-      "body": "heyaaaaaaa"
-    },
-    {
-      "id": 6,
-      "author": "testing",
-      "body": "heyaaaaaaa"
-    },
-    {
-      "id": 7,
-      "author": "testing",
-      "body": "heyaaaaaaa"
-    },
-    {
-      "id": 8,
-      "author": "testing",
-      "body": "heyaaaaaaa"
-    },
-    {
-      "id": 9,
-      "author": "testing",
-      "body": "heyaaaaaaa"
-    },
-    {
-      "id": 10,
-      "author": "testing",
-      "body": "heyaaaaaaa"
+      "body": "oh shit",
+      "author": "Me",
+      "timestamp": 1574731230113,
+      "id": 4
     }
   ]
 }
