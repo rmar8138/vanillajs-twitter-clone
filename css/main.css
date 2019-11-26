@@ -12,7 +12,8 @@ html {
 body {
   font-size: 1.6rem;
   font-family: Arial, sans-serif;
-  line-height: 1.4; }
+  line-height: 1.4;
+  height: 100vh; }
 
 a {
   text-decoration: none;
@@ -27,11 +28,23 @@ li {
 .home {
   display: flex; }
 
+.tweet {
+  border: 1px solid black;
+  padding: 1rem; }
+  .tweet__author {
+    font-size: 1.4rem; }
+  .tweet__body {
+    font-size: 1.2rem; }
+
 .navbar {
-  background-color: palevioletred; }
+  background-color: palevioletred;
+  flex: 0 1 25%; }
 
 .feed {
-  background-color: paleturquoise; }
+  background-color: paleturquoise;
+  flex: 0 1 50%;
+  overflow: scroll; }
 
 .trends {
-  background-color: palegreen; }
+  background-color: palegreen;
+  flex: 0 1 25%; }
